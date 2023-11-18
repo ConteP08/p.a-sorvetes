@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 240);
+}
+
+header {
+    background-image: url('./sorvete.png');
+    background-size: cover;  
+    background-position: center;  
+    height: 175px; 
+    color: #fff; 
+    text-align: center; 
+    padding: 50px; 
+}
+
+header h1 {
+    color: #F7C8E0 ;
+    background-color: white;
+    border: 2px solid #F7C8E0;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F7C8E0;
+    background-color: white;
+    border: 2px solid #F7C8E0;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section {
+    padding: 1.5em 1.5em 0 1.5em;
+}
+
+.sabor {
+
+    margin-bottom: 20px;
+}
+
+.sabor img {
+    width: 20%;
+    height: 30%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.milkshake {
+    margin-bottom: 20px;
+}
+
+.milkshake img {
+    width: 25%;
+    height: 50%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    margin: 0 0 0 10px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+li {
+    margin: 0 0 0 10px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+
+.footer {
+    background-color: #CDFAD5;
+    color:black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2rem;
+}
